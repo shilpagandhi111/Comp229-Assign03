@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Comp229_Assign03.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+         <br />
+        
+        <link href="Content/StyleSheet.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+       
+     <div class="nav-item">
+
+<div id="navcontainer">
+<ul>
+ <li><a href="#">Wade waters community college</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </li>
+
+<li><a href="pages/Landing_Page.aspx">HOME</a></li>
+<li><a href="pages/Student.aspx">STUDENTS</a></li>
+<li><a href="pages/Courses.aspx">COURSES</a></li>
+<li><a href="pages/AboutUs.aspx">ABOUT US</a></li>
+
+</ul>
+</div> 
+         
+     </div>
+    
+       
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+    </form>
+</body>
+</html>
